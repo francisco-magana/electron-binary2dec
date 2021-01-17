@@ -13,3 +13,7 @@ function initWindow(){
     mainWindow.loadFile(path.join(__dirname, 'views/index.html'));
 
 };
+
+app.on('ready', () => {
+    initWindow();
+});
