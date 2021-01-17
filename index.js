@@ -6,8 +6,8 @@ let mainWindow;
 function initWindow(){
 
     mainWindow = new BrowserWindow({
-        height: 480,
-        width:360,
+        height: 360,
+        width: 480,
     });
     
     mainWindow.loadFile(path.join(__dirname, 'views/index.html'));
